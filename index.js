@@ -1,13 +1,19 @@
 var recipes = { };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6677e565f244d54c937715c8e9bd1d015d983018
 function updateObjectWithKeyAndValue(recipes, key, value){
   
   return Object.assign({prop: 1}, {prop2: 2})
   
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6677e565f244d54c937715c8e9bd1d015d983018
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
   
       recipes[key] = value;
@@ -16,6 +22,7 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
 }
 
 
+<<<<<<< HEAD
 
 function deleteFromObjectByKey(recipes, key){
   
@@ -31,3 +38,10 @@ function destructivelyDeleteFromObjectByKey(recipes, key){
 	      return recipes;
   
 }
+=======
+function deleteFromObjectByKey(recipes, key){
+  
+  
+}
+
+>>>>>>> 6677e565f244d54c937715c8e9bd1d015d983018
